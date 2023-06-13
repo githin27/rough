@@ -10,8 +10,9 @@ Paper link: [[Arxiv]](https://arxiv.org/abs/2106.03106) [[CVPR]](https://openacc
 
 
 <hr>
+<i>
 <p style="text-align: justify;">
-<i>The paper introduces Uformer, a powerful and efficient architecture based on Transformers. It is specifically designed for image restoration tasks. Uformer uses a hierarchical encoder-decoder network, employing Transformer blocks. Two key elements make Uformer suitable for this task. The first element is the use of a local-enhanced window Transformer block. This block employs non-overlapping window-based self-attention to reduce computational requirements. Additionally, it utilizes depth-wise convolution in the feed-forward network to better capture local context. The second key element is the implementation of three skip-connection schemes. These schemes effectively transfer information from the encoder to the decoder, enhancing the restoration process. By combining these two design elements, Uformer demonstrates a strong ability to capture important relationships for image restoration.</p></i>
+The paper introduces Uformer, a powerful and efficient architecture based on Transformers. It is specifically designed for image restoration tasks. Uformer uses a hierarchical encoder-decoder network, employing Transformer blocks. Two key elements make Uformer suitable for this task. The first element is the use of a local-enhanced window Transformer block. This block employs non-overlapping window-based self-attention to reduce computational requirements. Additionally, it utilizes depth-wise convolution in the feed-forward network to better capture local context. The second key element is the implementation of three skip-connection schemes. These schemes effectively transfer information from the encoder to the decoder, enhancing the restoration process. By combining these two design elements, Uformer demonstrates a strong ability to capture important relationships for image restoration.</p></i>
 
 ![Uformer](fig/Uformer.png)
 
